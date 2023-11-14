@@ -1,7 +1,7 @@
 import { Outlet, Link } from 'react-router-dom';
 import "./NavBar.css"
-import logoImg from './images/Logo.png'
-import Search from './images/Search.png'
+import logoImg from './Assets/Logo.png'
+import Search from './Assets/Search.png'
 
 
 function NavBar() {
