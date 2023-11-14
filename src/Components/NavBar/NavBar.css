@@ -18,7 +18,8 @@
 }
 
 .Header-Container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
     width: 98%;
     margin: 0px 0px;
     padding: 1vh 1vw;
@@ -30,6 +31,22 @@
 
 #Logo-Section img {
     height: 70px;
+}
+
+#loginButton{
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    color: #F18D04;
+}
+
+#signupButton{
+    background-color: #F18D04;
+    padding: 10px 20px;
+    border-radius: 23px;
+    border: none;
+    font-size: 24px;
+    color: white;
 }
 
 /* #Navigation-Bar {
@@ -47,6 +64,13 @@
     margin: 0 1vw;
     font-weight: bold;
 } */
+
+#loginSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 #Navigation-Bar-Scrolled {
     display: flex;
@@ -74,5 +98,25 @@
 }
 
 #input-with-logo{
-    
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px 10px;
+    border-radius: 23px;
+    height: fit-content;
+}
+
+#input-with-logo img{
+    width: 30px;
+    height: 30px;
+}
+
+#input-with-logo input{
+    border: none;
+    font-size: 20px;
+}
+
+#input-with-logo input[type="text"]:focus {
+    outline: none;
+    border: none;
 }

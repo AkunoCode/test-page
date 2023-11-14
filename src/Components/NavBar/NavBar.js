@@ -19,13 +19,15 @@ function NavBar() {
                                 <li><Link to="About">About Us</Link></li>
                             </ul>
                         </nav>
-                        <div>
-                            <img src={Search} alt='Turo-Turo Logo' />
-                            <input type="text" placeholder="Enter text here..." />
-                        </div>
-
                     </div>
-
+                    <div id='loginSection'>
+                        <div id='input-with-logo'>
+                            <img src={Search} alt='Turo-Turo Logo' />
+                            <input type="text" placeholder="Search" />
+                        </div>
+                        <button id='loginButton'>Login</button>
+                        <button id='signupButton'>Signup</button>
+                    </div>
                 </div>
             </header >
             <Outlet />
