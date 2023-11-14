@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .button img {
+    height: 250px;
+  }
+  
+  .display {
+    width: auto;
+    height: 970px;
+    padding-top: 20px;
+  }
+  

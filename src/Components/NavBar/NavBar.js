@@ -3,6 +3,7 @@ import "./NavBar.css"
 import logoImg from './images/Logo.png'
 import Search from './images/Search.png'
 
+
 function NavBar() {
 
     return (
