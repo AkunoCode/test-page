@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/turoturo/static/css/main.fa931b7a.css",
-    "main.js": "/turoturo/static/js/main.9d77fcf8.js",
+    "main.css": "/turoturo/static/css/main.305856d7.css",
+    "main.js": "/turoturo/static/js/main.8443cd92.js",
     "static/media/ilearn_banner.png": "/turoturo/static/media/ilearn_banner.5387a0c8dc2408f189a7.png",
     "static/media/iteach_banner.png": "/turoturo/static/media/iteach_banner.187649a2afa70e8a5382.png",
     "static/media/deselected_ilearn.png": "/turoturo/static/media/deselected_ilearn.e45a6b3647f5b3777eaa.png",
     "static/media/selected_ilearn.png": "/turoturo/static/media/selected_ilearn.f3fe255a74780c0944f2.png",
     "static/media/deselected_iteach.png": "/turoturo/static/media/deselected_iteach.51797660ea44902cde28.png",
     "static/media/selected_iteach.png": "/turoturo/static/media/selected_iteach.2ac7fe1b186db1bbf229.png",
-    "static/media/TempLogo.png": "/turoturo/static/media/TempLogo.c04741b476f55511451d.png",
     "index.html": "/turoturo/index.html",
-    "main.fa931b7a.css.map": "/turoturo/static/css/main.fa931b7a.css.map",
-    "main.9d77fcf8.js.map": "/turoturo/static/js/main.9d77fcf8.js.map"
+    "main.305856d7.css.map": "/turoturo/static/css/main.305856d7.css.map",
+    "main.8443cd92.js.map": "/turoturo/static/js/main.8443cd92.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa931b7a.css",
-    "static/js/main.9d77fcf8.js"
+    "static/css/main.305856d7.css",
+    "static/js/main.8443cd92.js"
   ]
 }
