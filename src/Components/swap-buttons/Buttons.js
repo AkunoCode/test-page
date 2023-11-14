@@ -17,14 +17,16 @@ const MyComponent = () => {
   }
 
   return (
-    <div>
-      <button onClick={() => handleButtonClick(1)}>
-        <img src={selectedButton === 1 ? selectedIlearn : defaultIlearn} alt="Iteach" />
-      </button>
-      <button onClick={() => handleButtonClick(2)}>
-        <img src={selectedButton === 2 ? selectedIteach : defaultIteach} alt="Ilearn" />
-      </button>
-      <img src={selectedButton === 1 ? image1 : image2} alt="Display" />
+    <div className="container">
+      <div className="button-container">
+        <button className="button" onClick={() => handleButtonClick(1)}>
+          <img src={selectedButton === 1 ? selectedIlearn : defaultIlearn} alt="Iteach" />
+        </button>
+        <button className="button" onClick={() => handleButtonClick(2)}>
+          <img src={selectedButton === 2 ? selectedIteach : defaultIteach} alt="Ilearn" />
+        </button>
+      </div>
+      <img className="display" src={selectedButton === 1 ? image1 : image2} alt="Display" style={{height: '150px', width: 'auto'}}/>
     </div>
   );
 }
