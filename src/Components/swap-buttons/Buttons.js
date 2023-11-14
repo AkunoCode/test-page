@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Buttons.css'
 
-// Import your images
 import defaultIlearn from './Assets/deselected_ilearn.png';
 import selectedIlearn from './Assets/selected_ilearn.png';
 import defaultIteach from './Assets/deselected_iteach.png';
@@ -11,9 +10,12 @@ import image2 from './Assets/banners/iteach_banner.png';
 
 const MyComponent = () => {
   const [selectedButton, setSelectedButton] = useState(1);
+  const [animation, setAnimation] = useState(false);
 
   const handleButtonClick = (buttonId) => {
     setSelectedButton(buttonId);
+    setAnimation(true);
+    setTimeout(() => setAnimation(false), 500); 
   }
 
   return (
@@ -26,7 +28,7 @@ const MyComponent = () => {
           <img src={selectedButton === 2 ? selectedIteach : defaultIteach} alt="Ilearn" />
         </button>
       </div>
-      <img className="display" src={selectedButton === 1 ? image1 : image2} alt="Display" />
+      <img className={`display ${animation ? 'fadeIn' : ''}`} src={selectedButton === 1 ? image1 : image2} alt="Display" />
     </div>
   );
 }
