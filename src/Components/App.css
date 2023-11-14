@@ -1,0 +1,27 @@
+#MobileNotSupported{
+    text-align: center;
+    padding: 20px;
+}
+
+#MobileNotSupported a{
+    display: block;
+    width: 200px;
+    padding: 20px 40px;
+    border-radius: 23px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#WebPrototype{
+    background-color: #F18D04;
+}
+
+#MobilePrototype{
+    margin-top: 10px;
+    background-color: #3F8E9B;
+}
