@@ -17,6 +17,30 @@
     margin-right: auto;
 }
 
+#NotYetAvailable{
+    margin-top: 180px;
+    text-align: center;
+    padding: 20px;
+}
+
+#NotYetAvailable a{
+    display: block;
+    width: 200px;
+    padding: 20px 40px;
+    border-radius: 23px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#NotYetAvailable strong{
+    margin-bottom: 30px;
+}
+
 #WebPrototype{
     background-color: #F18D04;
 }

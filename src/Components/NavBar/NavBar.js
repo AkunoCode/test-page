@@ -11,9 +11,9 @@ function NavBar() {
             <header id='Header-Scrolled'>
                 <div className='Header-Container'>
                     <div id="Logo-Section">
-                        <a href='https://akunocode.github.io/turoturo/'>
+                        <Link to="/turoturo">
                             <img src={logoImg} alt='Turo-Turo Logo' />
-                        </a>
+                        </Link>
                         <nav>
                             <ul id='Navigation-Bar-Scrolled'>
                                 <li><Link to="student">Find Student</Link></li>
@@ -27,8 +27,8 @@ function NavBar() {
                             <img src={Search} alt='Turo-Turo Logo' />
                             <input type="text" placeholder="Search" />
                         </div>
-                        <button id='loginButton'>Login</button>
-                        <button id='signupButton'>Signup</button>
+                        <Link to="Login"><button id='loginButton'>Login</button></Link>
+                        <Link to="Sign-Up"><button id='signupButton'>Sign Up</button></Link>
                     </div>
                 </div>
             </header >
