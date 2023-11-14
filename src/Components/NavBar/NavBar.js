@@ -12,9 +12,9 @@ function NavBar() {
                     </div>
                     <nav>
                         <ul id='Navigation-Bar-Scrolled'>
-                            <li><Link to="/student">Find Student</Link></li>
-                            <li><Link to="/tutor">Find Tutor</Link></li>
-                            <li><Link to="/About">About Us</Link></li>
+                            <li><Link to="student">Find Student</Link></li>
+                            <li><Link to="tutor">Find Tutor</Link></li>
+                            <li><Link to="About">About Us</Link></li>
                         </ul>
                     </nav>
                 </div>
