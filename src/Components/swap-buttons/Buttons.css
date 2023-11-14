@@ -23,7 +23,8 @@
   }
   
   .display {
-    width: 20px;
-    height: auto;
+    width: auto;
+    height: 970px;
+    padding-top: 20px;
   }
   

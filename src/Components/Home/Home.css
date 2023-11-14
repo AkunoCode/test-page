@@ -1,4 +1,17 @@
-.HomeBody{
-    margin-top: 80px;
-    background-color: rgb(255, 255, 255);
-}
+.HomeBody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 30px; 
+  }
+  
+  .topContent {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .ButtonsArea {
+    width: 100%;
+    margin-top: 250px;
+  }
+  
