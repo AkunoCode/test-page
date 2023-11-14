@@ -1,5 +1,6 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import "./NavBar.css"
+import logo from "./Assets/TempLogo.png"
 
 function NavBar() {
 
@@ -8,13 +9,13 @@ function NavBar() {
             <header id='Header-Scrolled'>
                 <div className='Header-Container'>
                     <div id="Logo-Section">
-                        <h1>Turo-Turo</h1>
+                        <img src={logo} alt="Logo" />
                     </div>
                     <nav>
                         <ul id='Navigation-Bar-Scrolled'>
-                            <li><Link to="student">Find Student</Link></li>
-                            <li><Link to="tutor">Find Tutor</Link></li>
-                            <li><Link to="About">About Us</Link></li>
+                            <li>Find Student</li>
+                            <li>Find Tutor</li>
+                            <li>About Us</li>
                         </ul>
                     </nav>
                 </div>
