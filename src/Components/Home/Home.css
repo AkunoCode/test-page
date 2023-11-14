@@ -1,7 +1,7 @@
 .HomeBody {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 30px 0px; 
 }
   
@@ -53,5 +53,6 @@
   .ButtonsArea {
     width: 100%;
     margin-top: 350px;
+    margin-bottom: 250px;
   }
   

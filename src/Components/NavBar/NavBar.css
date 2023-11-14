@@ -19,7 +19,7 @@
 
 .Header-Container {
     display: grid;
-    grid-template-columns: 6fr 3fr;
+    grid-template-columns: 6fr 4fr;
     width: 98%;
     margin: 0px 0px;
     padding: 1vh 1vw;
