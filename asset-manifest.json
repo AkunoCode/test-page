@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/turoturo/static/css/main.df7215ab.css",
-    "main.js": "/turoturo/static/js/main.23a5b6db.js",
+    "main.css": "/turoturo/static/css/main.3eef1a4b.css",
+    "main.js": "/turoturo/static/js/main.b656ad54.js",
     "index.html": "/turoturo/index.html",
-    "main.df7215ab.css.map": "/turoturo/static/css/main.df7215ab.css.map",
-    "main.23a5b6db.js.map": "/turoturo/static/js/main.23a5b6db.js.map"
+    "main.3eef1a4b.css.map": "/turoturo/static/css/main.3eef1a4b.css.map",
+    "main.b656ad54.js.map": "/turoturo/static/js/main.b656ad54.js.map"
   },
   "entrypoints": [
-    "static/css/main.df7215ab.css",
-    "static/js/main.23a5b6db.js"
+    "static/css/main.3eef1a4b.css",
+    "static/js/main.b656ad54.js"
   ]
 }
